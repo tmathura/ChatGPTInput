@@ -16,7 +16,7 @@ namespace ChatGPTInput.Implementations
 			_openAIAPI = openAIAPI;
 		}
 
-		public async Task<string> Answer(string question)
+		public async Task<string> Ask(string question)
 		{
 			string answer = null;
 

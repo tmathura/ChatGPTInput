@@ -4,6 +4,6 @@ namespace ChatGPTInput.Interfaces
 {
 	public interface IConversationBl
 	{
-		Task<string> Answer(string question);
+		Task<string> Ask(string question);
 	}
 }

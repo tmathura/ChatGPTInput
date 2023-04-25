@@ -36,7 +36,7 @@ namespace ChatGPTInput
 			{
 				var question = Console.ReadLine();
 
-				var answer = await conversationBl.Answer(question);
+				var answer = await conversationBl.Ask(question);
 
 				Console.WriteLine(answer);
 			}
